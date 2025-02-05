@@ -4,6 +4,8 @@ This is a brief showcase of automation process for login, app creation and app m
 
 Installation:
 
+Before cloning, make sure that you have playwright installed. You can do so by running this command: npx playwright install
+
 1. Clone the repository
 
 - git clone https://github.com/gvujasin/playwrite-sample.git
