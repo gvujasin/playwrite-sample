@@ -18,7 +18,7 @@ test.describe('Login scenarios', () => {
 
     })
 
-    test('Login to builder with existing email and password', async ({ page }) => {
+    test('should login to builder with existing email and password', async ({ page }) => {
 
         const Login = new ShoutemLogin(page)
 
@@ -34,7 +34,7 @@ test.describe('Login scenarios', () => {
     });
 
 
-    test('User is trying to login with invalid email', async ({ page }) => {
+    test('should try to login with invalid email', async ({ page }) => {
 
         const Login = new ShoutemLogin(page)
 
@@ -45,7 +45,7 @@ test.describe('Login scenarios', () => {
 
     });
 
-    test('User is trying to login with too short password', async ({ page }) => {
+    test('should try to login with too short password', async ({ page }) => {
 
         const Login = new ShoutemLogin(page)
 
@@ -61,7 +61,7 @@ test.describe('Login scenarios', () => {
 
     });
 
-    test('User is trying to login with invalid password', async ({ page }) => {
+    test('should try to login with invalid password', async ({ page }) => {
 
         const Login = new ShoutemLogin(page)
 

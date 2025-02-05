@@ -22,8 +22,4 @@ exports.ShoutemLogin = class ShoutemLogin {
         await this.page.goto('https://builder.qa.shoutm.net/login');
 
     }
-
-    async loginToBuilder() {
-
-    }
 }

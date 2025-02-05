@@ -7,7 +7,7 @@ require('dotenv').config();
 
 test.describe.configure({ mode: 'serial' }); // --> works only for this test, does not override global settings
 
-test.describe('should test out app creation, app rename, app copy and app deletion features', () => {
+test.describe('App managements on My applications dashboard', () => {
 
   test.beforeEach(async ({ page }) => {
 

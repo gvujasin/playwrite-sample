@@ -9,11 +9,11 @@ exports.BuilderHeader = class BuilderHeader {
         this.pageTitle = page.getByTestId('apps-page-title')
         this.accountMenu = page.locator('ul:nth-child(4)')
         this.supportMenu = page.locator('ul:nth-child(5)')
-        this.myAccountSection = page.getByRole('menuitem', { name: ' My Account' })
-        this.becomeADeveloperSection = page.getByRole('menuitem', { name: ' Become a developer' })
-        this.signOut = page.getByRole('menuitem', { name: ' Become a developer' })
-        this.supportSection = page.getByRole('menuitem', { name: ' Support' })
-        this.contactUsSection = page.getByRole('menuitem', { name: ' Contact us' })
+        this.myAccountSection = page.getByRole('menuitem', { name:' My Account'})
+        this.becomeADeveloperSection = page.getByRole('menuitem', { name:' Become a developer'})
+        this.signOut = page.getByRole('menuitem', { name:' Become a developer'})
+        this.supportSection = page.getByRole('menuitem', { name:' Support'})
+        this.contactUsSection = page.getByRole('menuitem', { name:' Contact us'})
     }
 
     //actions
